@@ -1,0 +1,31 @@
+
+<div class="list-items">
+    <ol>
+        <li *ngFor="let story of stories">
+                
+            <div class="list-item-top">
+                <div class="news">
+                    <div class="svg-icon">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px"
+                            viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+                            <g>
+                                <g id="arrow-drop-up">
+                                    <polygon points="0,191.25 127.5,63.75 255,191.25   " data-original="#000000"
+                                        class="active-path" data-old_color="#000000" fill="#999999" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="headline">{{story.title}}<a class="url-link" href={{story.url}} style='text-decoration: none' *ngIf="story.url"><span
+                        class="website">({{story.newUrl}}) </span></a></div>
+                    
+                </div>
+            </div>
+            <div class="list-item-bottom">
+                <span class="newsMeta">{{ story.score }} points by {{story.by }} {{story.time}} ago | hide |
+                    {{story.descendants }} comments</span>
+            </div>
+        </li>
+      </ol>
+</div>

@@ -1,0 +1,93 @@
+.nav{
+    box-sizing: border-box;
+    background:  #fb651e;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+
+.nav-table{
+    padding:2px
+}
+
+.nav-table .nav-table-data{
+    width:18px;
+    padding-right:4px;
+}
+
+.nav-table .nav-table-data2{
+    line-height:12pt; 
+    height:10px;
+}
+
+.nav-table .navbar-login{
+    text-align:right;padding-right:4px;
+}
+
+.hacknews{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+ion-content {
+     --background: #f6f6ee;
+    //  --margin: 30px;
+}
+
+.logo{
+    width: 30px; height: 30px;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 600px){
+    .container{
+        padding: 0;
+    }
+
+    .form-input{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 300px)
+ {
+     .hacknews{
+        display: block;
+        font-size: 15px;
+     }
+   
+}
+
+.more-btn{
+    text-align: center;
+}
+
+.more-btn > hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color:#fb651e;
+    height: 2px;
+ }
+
+
+.footer{
+    text-align: center;
+}
+
+.bottom-links{
+    font-size: 12px;
+    margin: auto;
+    text-align: -webkit-center;
+}
